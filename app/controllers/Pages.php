@@ -10,8 +10,7 @@
       }
 
       $data = [
-        'title' => 'DNA101',
-        'description' => 'website for Bioinformatcs'
+        
       ];
      
       $this->view('pages/index', $data);
@@ -19,10 +18,23 @@
 
     public function about(){
       $data = [
-        'title' => 'About Us',
-        'description' => 'App to share information bioinformatcs with other users'
+       
       ];
 
       $this->view('pages/about', $data);
     }
+    public function home(){
+      $data = [
+        
+      ];
+
+      $this->view('pages/home', $data);
+    }
+    public function posts(){
+      $data = [
+        
+      ];
+
+      $this->view('shear/posts', $data);
+  }
   }

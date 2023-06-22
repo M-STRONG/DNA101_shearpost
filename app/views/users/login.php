@@ -1,4 +1,10 @@
 <?php require APPROOT . '/views/inc/header.php'; ?>
+<style>
+  body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/985/222/573/dna-depth-of-field-abstract-digital-art-wallpaper-preview.jpg');
+    background-size: cover;
+  }
+</style>
   <div class="container">
     <div class="row">
       <div class="col-md-6 mx-auto">
