@@ -39,11 +39,5 @@
 
       $this->view('shear/posts', $data);
   }
-  public function error(){
-    $data = [
-      
-    ];
-
-    $this->view('view/404err', $data);
-}
+ 
   }
