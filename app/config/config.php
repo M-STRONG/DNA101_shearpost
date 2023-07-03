@@ -10,4 +10,4 @@
   // URL Root
   define('URLROOT', 'http://localhost/shearpost');
   // Site Name
-  define('SITENAME', 'Shearpost');
+  define('SITENAME', 'DNA101');

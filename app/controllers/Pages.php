@@ -8,13 +8,15 @@
       if(isLoggedIn()){
         redirect('posts');
       }
-
+    
       $data = [
         
+       
       ];
-     
-      $this->view('pages/index', $data);
+    
+      $this->view('pages/home', $data);
     }
+    
 
     public function about(){
       $data = [
@@ -37,4 +39,11 @@
 
       $this->view('shear/posts', $data);
   }
+  public function error(){
+    $data = [
+      
+    ];
+
+    $this->view('view/404err', $data);
+}
   }
